@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Menu With Gradient Animation</title>
+    <link rel="stylesheet" href="css-gradient-animation.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#">Choy</a></div>
+            <input type="radio" name="slide" id="menu-btn">
+            <input type="radio" name="slide" id="cancel-btn">
+            <ul class="nav-links">
+                <label for="cancel-btn" class="btn cancel-btn"><i class="fas fa-times"></i></label>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a class="desktop-item" href="#">Dropdown Menu</a>
+                    <input type="checkbox" id="showDropdown">
+                    <label for="showDropdown" class="mobile-item">Dropdown Menu</label>
+                    <ul class="drop-menu">
+                        <li><a href="#">Dropdown 1</a></li>
+                        <li><a href="#">Dropdown 2</a></li>
+                        <li><a href="#">Dropdown 3</a></li>
+                        <li><a href="#">Dropdown 4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="desktop-item" href="#">Mega Menu</a>
+                    <input type="checkbox" id="showMega">
+                    <label for="showMega" class="mobile-item"> Mega Menu</label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="https://avatars.githubusercontent.com/u/87939560" alt="">
+                            </div>
+                            <div class="row">
+
+                                <header> Header 1</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Megamenu 1</a></li>
+                                    <li><a href="#">Megamenu 2</a></li>
+                                    <li><a href="#">Megamenu 3</a></li>
+                                    <li><a href="#">Megamenu 4</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header> Header 2</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Megamenu 1</a></li>
+                                    <li><a href="#">Megamenu 2</a></li>
+                                    <li><a href="#">Megamenu 3</a></li>
+                                    <li><a href="#">Megamenu 4</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header> Header 3</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Megamenu 1</a></li>
+                                    <li><a href="#">Megamenu 2</a></li>
+                                    <li><a href="#">Megamenu 3</a></li>
+                                    <li><a href="#">Megamenu 4</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+
+</body>
+
+</html>
