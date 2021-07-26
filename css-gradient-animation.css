@@ -1,0 +1,30 @@
+.css-selector {
+    background: linear-gradient(0deg, #5067b9, #1c2237);
+    background-size: 400% 400%;
+
+    -webkit-animation: mrpnavbar 3s ease infinite;
+    -moz-animation: mrpnavbar 3s ease infinite;
+    -o-animation: mrpnavbar 3s ease infinite;
+    animation: mrpnavbar 3s ease infinite;
+}
+
+@-webkit-keyframes mrpnavbar {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes mrpnavbar {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-o-keyframes mrpnavbar {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes mrpnavbar {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
